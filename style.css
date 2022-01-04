@@ -100,3 +100,21 @@ hr {
    height: 1px;
    border: 0;
 }
+@media screen and (max-width: 375px) {
+   .card {
+      top: 150px;
+      text-align: center;
+      margin: 0 auto;
+      width: 85%;
+   }
+   .imagenTop {
+      position: absolute;
+      top: -650px;
+      left: -720px;
+   }
+   .imagenBottom {
+      position: absolute;
+      bottom: -770px;
+      right: -720px;
+   }
+}
